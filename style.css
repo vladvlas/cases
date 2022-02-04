@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+* {
+  font-family: 'Mulish', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #363740;
+}
+
+.case__content {
+    display: flex;
+    padding: 25px 25px;
+    background-color: #fff;
+    max-width: 380px;
+    width: 100%;
+    height: 500px;
+    border-radius: 8px;
+    flex-direction: column;
+}
+
+.title {
+    margin-top: 57px;
+    margin-bottom: 18px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #212121;
+}
+
+.btn {
+    margin-top: 14px;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    height: 48px;
+    background-color: #212121;
+    color: #fff;
+    transition: all .09s;
+}
+
+.btn:hover {
+    background-color: #383737;
+}
+
+input {
+    width: 100%;
+    padding: 11px 8px 8px 16px;
+    margin-bottom: 16px;
+    border: 1px solid #F0F1F7;
+    border-radius: 8px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    
+    }
+input::placeholder {
+    color: #4B506D;
+    opacity: 0.4;
+}
+
+select {
+    width: 100%;
+    padding: 11px 8px 8px 16px;
+    margin-bottom: 16px;
+    border: 1px solid #F0F1F7;
+    border-radius: 8px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+
+}
